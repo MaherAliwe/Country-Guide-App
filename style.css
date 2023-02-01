@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #3d64e6;
+}
+
+.container {
+    background-color: #ffffffc2;
+    width: 80vh;
+    max-width: 37.5em;
+    padding: 3em 2.5em;
+    position: absolute;
+    transform: translate(-50% -50%);
+    top: 30%;
+    left: 30%;
+    border-radius: 0.5em;
+    box-shadow: 0 1.25em 1.8em rgba(8, 21, 65, 0.25);
+}
+
+.search-wrapper {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.25em;
+}
+
+.search-wrapper button {
+    font-size: 1em;
+    background-color: #3d64e6;
+    color: #ffffff;
+    padding: 0.8em 0;
+    border-radius: 1.25em;
+    border: none;
+}
+
+.search-wrapper button:hover {
+    background-color: #3d64e693;
+
+}
+
+.search-wrapper input {
+    font-size: 1em;
+    border: none;
+    padding: 0 0.62em;
+    outline: none;
+    border-bottom: 1.5px #3d64e6 solid;
+    background: none;
+}
+
+#result {
+    margin-top: 1.25em;
+}
+
+.container .flag-img {
+    display: block;
+    width: 45%;
+    min-width: 7.5em;
+    margin: 1.8em auto 1.2em auto;
+}
+
+.country-name {
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #474c5a;
+    letter-spacing: 2px;
+    margin-bottom: 1.8em;
+}
+
+.data-wrapper {
+    margin-bottom: 1em;
+    letter-spacing: 0.3px;
+}
+
+.container h4 {
+    display: inline;
+    font-weight: 600;
+    color: #474c5a;
+}
+
+.container span {
+    color: #51545e;
+
+}
